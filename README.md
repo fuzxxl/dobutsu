@@ -5,6 +5,11 @@ This is an engine for the Japanese chess variant
 [Dōbutsu Shōgi]&#x20;(動物将棋).  It uses a comprehensive endgame table
 base to achieve perfect play from any position.
 
+Currently looking for people to localise this project into other languages!
+If interested, please have a look at the files `po/dobutsu.pot` and
+`man/man6/dobutsu.6`.  These are the files in need of translation.  Do not
+hesitate to open an issue if you have any questions.
+
 Dependencies
 ============
 
@@ -12,6 +17,7 @@ The following dependencies are required to compile and run this package:
 
  * XZ Utils
  * libedit or GNU readline/GNU history
+ * libintl and GNU gettext
 
 Please look at Makefile before compilation and edit in the right library
 paths.
